@@ -1,0 +1,43 @@
+Arguments: 
+  D:\Software\nodejs\node.exe D:\Software\yarn\bin\yarn.js build
+
+PATH: 
+  D:\Software\cmder\vendor\git-for-windows\mingw64\bin;D:\Software\cmder\vendor\git-for-windows\usr\bin;C:\Users\86199\bin;D:\VM\bin;C:\Program Files\Python38\Scripts;C:\Program Files\Python38;D:\Scripts;D:\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0;C:\windows\System32\OpenSSH;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;D:\luan\jdk\bin;D:\luan\jdk\jre\bin;D:\luan\Android_sdk\tools;D:\luan\Android_sdk\build-tools\25.0.2;C:\Users\86199\Desktop;D:\luan\Android_sdk\platform-tools;D:\Software\nodejs;D:\Software\yarn\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\py\python\Scripts;D:\py\python;C:\Users\86199\AppData\Local\Microsoft\WindowsApps;D:\py\PyCharm Community Edition 2021.3.1\bin;D:\luan\jdk\bin;D:\luan\jdk\jre\bin;D:\PyCharm 2021.3.1\bin;C:\Users\86199\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\86199\AppData\Roaming\npm;C:\Users\86199\AppData\Local\Yarn\bin;C:\Users\86199\.dotnet\tools
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  16.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: D:\Software\test\QH\package.json: Unexpected token { in JSON at position 109
+      at JSON.parse (<anonymous>)
+      at D:\Software\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (D:\Software\yarn\lib\cli.js:310:30)
+      at D:\Software\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "scripts": {
+      "build": "rm -rf dist && parcel build src/index.html --mo-minify --public-url ./"
+    }
+  }
+  {
+    "name": "QH",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:zxjdzxb/QH.git",
+    "author": "Jiezhou <1660154851@qq.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
